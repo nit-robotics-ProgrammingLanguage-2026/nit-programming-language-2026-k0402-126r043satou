@@ -5,10 +5,9 @@ int main(void) {
     /* 課題0402: 入力されたdoubleのデータを1.08倍した結果を，小数点以下15桁として表示するプログラムを書け． */
     double d;           //入力
     double result;      //結果
-
     scanf("%lf", &d);   //入力をキーボードから入力
     result = d * 1.08; // ここで計算
-    printf("%.15f\n", result); //結果を小数点以下15桁で出力
+    printf("%.2f\n", result); //結果を小数点以下15桁で出力
 
     return 0;
 }
